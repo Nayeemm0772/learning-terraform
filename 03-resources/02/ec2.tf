@@ -9,6 +9,7 @@ resource "aws_instance" "sample" {
   root_block_device {
     volume_size = 15
   }
+
 }
 
 output "ec2_public_ip" {
