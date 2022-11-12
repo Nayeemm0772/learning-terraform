@@ -7,6 +7,6 @@ variable "sample" {
 
 output "sample" {
   value = element(var.sample, 2)
-  value2 = element(var.sample, 1)
-  value3 = element(var.sample, 0)
+  valuee = element(var.sample, 1)
+  valueee = element(var.sample, 0)
 }
