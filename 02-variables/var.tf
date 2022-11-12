@@ -78,3 +78,4 @@ output "sample8" {
   value = var.sample8
 }
 
+variable "sample9" {}
