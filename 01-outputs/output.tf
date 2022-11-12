@@ -1,5 +1,7 @@
-output "printing name"
-{
-  value = " Hi, This is Nayeem "
+output "sample" {
+  value = "Hello World"
 }
 
+output "sample1" {
+  value = "Hello World"
+}
