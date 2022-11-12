@@ -6,6 +6,3 @@ output "sample1" {
   value = "Hello World"
 }
 
-output "sample1 sdgsdg" {
-  value = "Hello World"
-}
