@@ -25,3 +25,26 @@ variable "sample2" {
 variable "sample3" {
   default = true
 }
+
+# List variable
+variable "sample4" {
+  default = [
+    "hello",
+    100,
+    true
+  ]
+}
+
+# Map variable
+variable "sample5" {
+  default = {
+    string  = "hello"
+    number  = 100
+    boolean = true
+  }
+}
+
+## Access a list value
+output "sample4" {
+  value = var.sample4[0]
+}
