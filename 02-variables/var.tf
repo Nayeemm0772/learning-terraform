@@ -49,3 +49,16 @@ variable "sample5" {
 output "sample4" {
   value = var.sample4[0]
 }
+
+
+#accessing a map valuee
+output "sample5"  {
+  value = var.sample5["number"]
+}
+
+## Pick a variable from CLI
+variable "sample7" {}
+output "sample7" {
+  value = var.sample7
+}
+
