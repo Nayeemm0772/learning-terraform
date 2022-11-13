@@ -22,8 +22,6 @@ variable "instances" {
   }
 }
 
-output "count"
-{
+output "count" {
   value = length(var.instances)
-
 }
