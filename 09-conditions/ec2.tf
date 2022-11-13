@@ -30,7 +30,7 @@ resource "aws_security_group" "allow_ssh" {
   count       = var.create_sg ? 1 : 0
   name        = "allow_ssh"
   description = "Allow TLS inbound traffic"
-  vpc_id      = "vpc-0f18b1fc1a9d5bea9"
+  vpc_id      = "vpc-075435ce9af088bfa"
 
   ingress {
     description = "TLS from VPC"
