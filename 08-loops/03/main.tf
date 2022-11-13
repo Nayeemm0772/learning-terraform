@@ -22,4 +22,8 @@ variable "instances" {
   }
 }
 
+output "count"
+{
+  value = length(var.instances)
 
+}
