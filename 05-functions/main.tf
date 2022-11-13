@@ -32,3 +32,14 @@ output "list" {
   value = [ for s in var.list : upper(s)]
 }
 
+variable "map" {
+  default = {
+    b = "blue"
+    g = "green"
+    y = "yellow"
+  }
+}
+
+output "map"{
+  value = [ for k, v in var.map : "Color code is - ${k} and color is - ${v} "]
+}
