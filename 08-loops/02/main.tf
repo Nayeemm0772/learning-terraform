@@ -13,5 +13,5 @@ output "public_ip" {
 }
 
 variable "instances" {
-  default = [upper("frontend"), upper("backend")]
+  default = ["frontend","backend"]
 }
