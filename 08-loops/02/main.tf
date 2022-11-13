@@ -13,5 +13,5 @@ output "public_ip" {
 }
 
 variable "instances" {
-  default = ["cart", "catalogue"]
+  default = ["frontend", "backend"]
 }

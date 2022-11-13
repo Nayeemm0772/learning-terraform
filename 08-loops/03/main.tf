@@ -12,11 +12,11 @@ variable "instances" {
   default = {
     catalogue = {
       instance_type = "t3.micro"
-      tagName       = "CATALOGUE"
+      tagName       = "frontend"
     }
     cart = {
       instance_type = "t3.micro"
-      tagName       = "CART"
+      tagName       = "backend"
     }
 
   }
