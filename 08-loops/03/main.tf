@@ -19,7 +19,6 @@ variable "instances" {
       tagName       = "CART"
     }
 
-
   }
 }
 
