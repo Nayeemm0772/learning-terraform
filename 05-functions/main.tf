@@ -25,7 +25,7 @@ output "sample1" {
 }
 
 variable "list" {
-  randomlist = ["a","b","c"]
+  default = ["a","b","c"]
 }
 
 output "list" {
