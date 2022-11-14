@@ -8,7 +8,6 @@ resource "aws_instance" "sample" {
   }
 
 
-
   provisioner "remote-exec" {
     connection {
       type     = "ssh"
