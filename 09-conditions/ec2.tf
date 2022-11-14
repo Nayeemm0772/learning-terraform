@@ -23,7 +23,6 @@ resource "aws_instance" "sample" {
   }
 
 
-
 }
 
 resource "aws_security_group" "allow_ssh" {
